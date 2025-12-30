@@ -1,0 +1,78 @@
+#aoa-bezel {
+  width: 260px;
+  height: 500px;
+  margin: 12px auto;
+  padding: 14px;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #101013, #0c0c0f);
+  box-shadow: 0 8px 26px rgba(0, 0, 0, 0.6);
+}
+
+#aoa-screen {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #f7f7f8;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 3px #050505;
+}
+
+svg {
+  width: 100%;
+  height: calc(100% - 72px);
+  display: block;
+}
+
+.aoa-shape {
+  opacity: 0.18;
+  transition: opacity 140ms ease, transform 160ms ease;
+}
+
+#shape-red path {
+  fill: #e53935;
+}
+
+#shape-blue circle,
+#shape-blue rect {
+  fill: #1e4ae5;
+}
+
+#shape-yellow path {
+  fill: #e6c300;
+}
+
+#shape-green rect {
+  fill: #1db954;
+}
+
+.active {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.pulsing {
+  animation: flash 0.5s steps(2, end) infinite;
+}
+
+@keyframes flash {
+  to {
+    opacity: 0.4;
+  }
+}
+
+#debug {
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
+  color: #0a0a0a;
+  background: rgba(255, 255, 255, 0.72);
+  border-radius: 8px;
+  padding: 6px 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}

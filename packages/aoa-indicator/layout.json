@@ -1,0 +1,44 @@
+{
+  "content": [
+    {
+      "path": "config/aircraft/a320neo.json",
+      "size": 89,
+      "date": "2025-12-29T23:32:43Z"
+    },
+    {
+      "path": "config/aircraft/c172.json",
+      "size": 89,
+      "date": "2025-12-29T23:32:36Z"
+    },
+    {
+      "path": "config/aircraft/da62.json",
+      "size": 89,
+      "date": "2025-12-29T23:32:40Z"
+    },
+    {
+      "path": "config/defaults.json",
+      "size": 171,
+      "date": "2025-12-29T23:32:32Z"
+    },
+    {
+      "path": "html_ui/Pages/VCockpit/Instruments/AOAIndicator/index.html",
+      "size": 1090,
+      "date": "2025-12-29T23:33:02Z"
+    },
+    {
+      "path": "html_ui/Pages/VCockpit/Instruments/AOAIndicator/instrument.js",
+      "size": 3015,
+      "date": "2025-12-29T23:33:31Z"
+    },
+    {
+      "path": "html_ui/Pages/VCockpit/Instruments/AOAIndicator/style.css",
+      "size": 1224,
+      "date": "2025-12-29T23:33:14Z"
+    },
+    {
+      "path": "manifest.json",
+      "size": 346,
+      "date": "2025-12-29T23:32:27Z"
+    }
+  ]
+}

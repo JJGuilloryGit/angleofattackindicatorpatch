@@ -1,0 +1,8 @@
+{
+  "smoothing_factor": 0.2,
+  "stall_alpha_deg": 17.0,
+  "on_speed_alpha_deg": 11.0,
+  "caution_alpha_deg": 14.0,
+  "ground_airspeed_kts": 30.0,
+  "flash_rate_hz": 2.0
+}
