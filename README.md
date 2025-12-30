@@ -15,6 +15,7 @@ This repository is a starting point for documenting and distributing the Angle o
 - Location: `packages/aoa-indicator` (Community-style package with manifest/layout, HTML instrument, and tuning configs).
 - Instrument: Portrait HTML gauge at `html_ui/Pages/VCockpit/Instruments/AOAIndicator/` with state machine for red/yellow/blue/green AoA cues. Outside the sim it uses a mock alpha signal so you can preview.
 - Config: `config/defaults.json` plus aircraft overrides in `config/aircraft/*.json` (initial: C172, DA62, A320neo).
+- Preview: See `docs/aoa_indicator_preview.png` for a quick visual of the current gauge layout (red/yellow/blue/green states).
 
 ### Install (manual for now)
 1) Copy `packages/aoa-indicator` into your MSFS `Community` folder (2020/2024).
